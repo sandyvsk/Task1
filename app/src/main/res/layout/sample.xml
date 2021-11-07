@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/rectangle_corner_white_background">
+
+    <TextView
+        android:id="@+id/alert_header_txtview"
+        style="@style/textview_normal"
+        android:textAlignment="center"
+        android:text="@string/app_name"
+        android:layout_margin="@dimen/_10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvInternetNotConnected"
+        android:layout_margin="@dimen/_20dp"
+        style="@style/textview_normal"
+        android:gravity="center"
+        android:text="@string/seems_there_is_a_connectivity_issue_please_check_your_internet_connection_and_try_again"
+        app:layout_constraintBottom_toTopOf="@+id/btnDialogOk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alert_header_txtview" />
+
+    <Button
+        android:id="@+id/btnDialogOk"
+        style="@style/button"
+        android:layout_margin="@dimen/_20dp"
+        android:background="@drawable/rectangle_corner_selected_list_background"
+        android:text="@string/retry"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

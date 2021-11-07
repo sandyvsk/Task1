@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Task 1</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="deportes">Deportes</string>
+    <string name="guardar">Guardar</string>
+    <string name="selecciona_un_minimo_de_3">Selecciona un minimo de 3.</string>
+    <string name="add_list">Added Value</string>
+    <string name="image">Close Image</string>
+    <string name="retry">Retry</string>
+    <string name="seems_there_is_a_connectivity_issue_please_check_your_internet_connection_and_try_again">Seems there is a connectivity issue. Please check your internet connection and try again</string>
+    <string name="way2smile_com">W2S Solutions - Task 1</string>
+
+</resources>
